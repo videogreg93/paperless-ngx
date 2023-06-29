@@ -66,6 +66,10 @@ services:
     environment:
       PAPERLESS_REDIS: redis://red-ciev6op8g3n3ipp4qbtg:6379
       PAPERLESS_DBHOST: db
+      PAPERLESS_URL: https://paperless.onrender.com/
+      PAPERLESS_CSRF_TRUSTED_ORIGINS: https://paperless.onrender.com/ # can be set using PAPERLESS_URL
+      PAPERLESS_ALLOWED_HOSTS: paperless.onrender.com/,www.paperless.onrender.com/ # can be set using PAPERLESS_URL
+      PAPERLESS_CORS_ALLOWED_HOSTS: https://localhost:8080,https://paperless.onrender.com/ # can be set using PAPERLESS_URL
 
 
 volumes:
