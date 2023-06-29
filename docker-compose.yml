@@ -70,6 +70,7 @@ services:
       PAPERLESS_CSRF_TRUSTED_ORIGINS: https://paperless.onrender.com,https://*.onrender.com,https://*.127.0.0.1,https://paperless.onrender.com/accounts/login   # can be set using PAPERLESS_URL
       PAPERLESS_ALLOWED_HOSTS: paperless.onrender.com/,www.paperless.onrender.com # can be set using PAPERLESS_URL
       PAPERLESS_CORS_ALLOWED_HOSTS: https://localhost:8080,https://paperless.onrender.com,https://paperless.onrender.com/accounts/login # can be set using PAPERLESS_URL
+      PAPERLESS_DEBUG: true
 
 
 volumes:
