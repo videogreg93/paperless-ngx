@@ -64,7 +64,7 @@ services:
       - ./consume:/usr/src/paperless/consume
     env_file: docker-compose.env
     environment:
-      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_REDIS: redis://red-ciev6op8g3n3ipp4qbtg:6379
       PAPERLESS_DBHOST: db
 
 
